@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!--
+
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="currency">
+            <group id="symbols" translate="label" type="text" sortOrder="200" showInDefault="1" showInStore="1">
+                <label>Currency Symbols</label>
+                <field id="sar" translate="label" type="text" sortOrder="1" showInDefault="1" showInStore="1">
+                    <label>SAR</label>
+                    <comment>SAR</comment>
+                </field>
+                <!-- <field id="aed" translate="label" type="text" sortOrder="1" showInDefault="1" showInStore="1">
+                    <label>AED</label>
+                    <comment>AED</comment>
+                </field> -->
+                <field id="usd" translate="label" type="text" sortOrder="1" showInDefault="1" showInStore="1">
+                    <label>USD</label>
+                    <comment>USD</comment>
+                </field>
+                <!-- <field id="try" translate="label" type="text" sortOrder="1" showInDefault="1" showInStore="1">
+                    <label>TL</label>
+                    <comment>TL</comment>
+                </field>
+                <field id="kwd" translate="label" type="text" sortOrder="1" showInDefault="1" showInStore="1">
+                    <label>KWD</label>
+                    <comment>KWD</comment>
+                </field> -->
+            </group>
+            <group id="positions" translate="label" type="text" sortOrder="200" showInDefault="1" showInStore="1">
+                <label>Currency Position</label>
+                <field id="sar" translate="label" type="select" sortOrder="1" showInDefault="1" showInStore="1">
+                    <label>SAR</label>
+                    <comment>SAR position</comment>
+                    <source_model>Biren\CurrencyTools\Model\Config\Source\Position</source_model>
+                </field>
+                <!-- <field id="aed" translate="label" type="select" sortOrder="1" showInDefault="1" showInStore="1">
+                    <label>AED</label>
+                    <comment>AED position</comment>
+                    <source_model>Biren\CurrencyTools\Model\Config\Source\Position</source_model>
+                </field> -->
+                <field id="usd" translate="label" type="select"  sortOrder="1" showInDefault="1" showInStore="1">
+                    <label>USD</label>
+                    <comment>USD position</comment>
+                    <source_model>Biren\CurrencyTools\Model\Config\Source\Position</source_model>
+                </field>
+                <!-- <field id="try" translate="label" type="select"  sortOrder="1" showInDefault="1" showInStore="1">
+                    <label>TL</label>
+                    <comment>TL position</comment>
+                    <source_model>Biren\CurrencyTools\Model\Config\Source\Position</source_model>
+                </field>
+                <field id="kwd" translate="label" type="select"  sortOrder="1" showInDefault="1" showInStore="1">
+                    <label>KWD</label>
+                    <comment>KWD position</comment>
+                    <source_model>Biren\CurrencyTools\Model\Config\Source\Position</source_model>
+                </field> -->
+            </group>
+        </section>
+    </system>
+</config>

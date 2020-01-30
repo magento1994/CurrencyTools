@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <currency>
+            <positions>
+                <sar>left</sar>
+                <!-- <aed>left</aed> -->
+                <usd>left</usd>
+                <!-- <try>left</try>
+                <kwd>left</kwd> -->
+            </positions>
+        </currency>
+    </default>
+</config>
